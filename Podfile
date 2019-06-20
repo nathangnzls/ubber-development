@@ -8,6 +8,7 @@ target 'uber-development' do
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
   pod 'RevealingSplashView'
+  pod 'IQKeyboardManagerSwift', '~> 6.2.0'
   # Pods for uber-development
 
   target 'uber-developmentTests' do

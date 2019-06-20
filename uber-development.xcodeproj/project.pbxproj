@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		685B528021030D523765F448 /* Pods_uber_developmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E18AC4FEFF961144CCD9C75 /* Pods_uber_developmentTests.framework */; };
 		B32787568001A86B58F190BF /* Pods_uber_developmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A21491087B6482B60FB343 /* Pods_uber_developmentUITests.framework */; };
+		D849047C22BB241000286BE7 /* ContainerVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D849047B22BB241000286BE7 /* ContainerVCViewController.swift */; };
+		D849047F22BB258500286BE7 /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D849047E22BB258500286BE7 /* LeftSidePanelVC.swift */; };
+		D849048222BB272100286BE7 /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D849048122BB272100286BE7 /* CenterVCDelegate.swift */; };
 		D8B18F7E2256F5D1006FCB30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B18F7D2256F5D1006FCB30 /* AppDelegate.swift */; };
 		D8B18F832256F5D1006FCB30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B18F812256F5D1006FCB30 /* Main.storyboard */; };
 		D8B18F852256F5D3006FCB30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B18F842256F5D3006FCB30 /* Assets.xcassets */; };
@@ -16,6 +19,10 @@
 		D8B18F932256F5D3006FCB30 /* uber_developmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B18F922256F5D3006FCB30 /* uber_developmentTests.swift */; };
 		D8B18F9E2256F5D3006FCB30 /* uber_developmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B18F9D2256F5D3006FCB30 /* uber_developmentUITests.swift */; };
 		D8B18FB0225705B4006FCB30 /* PassengerHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B18FAF225705B4006FCB30 /* PassengerHomeViewController.swift */; };
+		D8B18FB52257077B006FCB30 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B18FB42257077B006FCB30 /* ViewExtension.swift */; };
+		D8B18FB722570D00006FCB30 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B18FB622570D00006FCB30 /* GradientView.swift */; };
+		D8B18FB92257274C006FCB30 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B18FB82257274B006FCB30 /* CircleView.swift */; };
+		D8B18FBB225729C1006FCB30 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B18FBA225729C1006FCB30 /* RoundedButton.swift */; };
 		E14FFAC876401A309EC5995B /* Pods_uber_development.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BE09AC35FAEE0B835115B9 /* Pods_uber_development.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +53,9 @@
 		A8A21491087B6482B60FB343 /* Pods_uber_developmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uber_developmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D530B6CA53C3DA1E6D4C2F /* Pods-uber-developmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uber-developmentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-uber-developmentUITests/Pods-uber-developmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D76F4D551EFD1F3A0D5C7B5E /* Pods-uber-developmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uber-developmentUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-uber-developmentUITests/Pods-uber-developmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D849047B22BB241000286BE7 /* ContainerVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVCViewController.swift; sourceTree = "<group>"; };
+		D849047E22BB258500286BE7 /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
+		D849048122BB272100286BE7 /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
 		D8B18F7A2256F5D1006FCB30 /* uber-development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uber-development.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B18F7D2256F5D1006FCB30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8B18F822256F5D1006FCB30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,6 +69,10 @@
 		D8B18F9D2256F5D3006FCB30 /* uber_developmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uber_developmentUITests.swift; sourceTree = "<group>"; };
 		D8B18F9F2256F5D3006FCB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8B18FAF225705B4006FCB30 /* PassengerHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerHomeViewController.swift; sourceTree = "<group>"; };
+		D8B18FB42257077B006FCB30 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		D8B18FB622570D00006FCB30 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		D8B18FB82257274B006FCB30 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		D8B18FBA225729C1006FCB30 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +126,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D849047A22BB23FE00286BE7 /* ContainerVC */ = {
+			isa = PBXGroup;
+			children = (
+				D849047B22BB241000286BE7 /* ContainerVCViewController.swift */,
+			);
+			path = ContainerVC;
+			sourceTree = "<group>";
+		};
+		D849047D22BB257600286BE7 /* LeftSidePanel */ = {
+			isa = PBXGroup;
+			children = (
+				D849047E22BB258500286BE7 /* LeftSidePanelVC.swift */,
+			);
+			path = LeftSidePanel;
+			sourceTree = "<group>";
+		};
+		D849048022BB271200286BE7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D849048122BB272100286BE7 /* CenterVCDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		D8B18F712256F5D1006FCB30 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +175,9 @@
 		D8B18F7C2256F5D1006FCB30 /* uber-development */ = {
 			isa = PBXGroup;
 			children = (
+				D849048022BB271200286BE7 /* Protocols */,
+				D8B18FB2225706A2006FCB30 /* Utilities */,
+				D8B18FB122570677006FCB30 /* Model */,
 				D8B18FAC22570544006FCB30 /* Views */,
 				D8B18F7D2256F5D1006FCB30 /* AppDelegate.swift */,
 				D8B18F842256F5D3006FCB30 /* Assets.xcassets */,
@@ -184,6 +225,8 @@
 		D8B18FAD2257054E006FCB30 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D849047D22BB257600286BE7 /* LeftSidePanel */,
+				D849047A22BB23FE00286BE7 /* ContainerVC */,
 				D8B18FAB22570532006FCB30 /* PassengerView */,
 			);
 			path = Controller;
@@ -195,6 +238,32 @@
 				D8B18F812256F5D1006FCB30 /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D8B18FB122570677006FCB30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8B18FB2225706A2006FCB30 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D8B18FB3225706AC006FCB30 /* Extension */,
+				D8B18FB82257274B006FCB30 /* CircleView.swift */,
+				D8B18FBA225729C1006FCB30 /* RoundedButton.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D8B18FB3225706AC006FCB30 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D8B18FB42257077B006FCB30 /* ViewExtension.swift */,
+				D8B18FB622570D00006FCB30 /* GradientView.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,6 +430,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-uber-development/Pods-uber-development-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -371,6 +441,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -431,7 +502,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D849048222BB272100286BE7 /* CenterVCDelegate.swift in Sources */,
+				D849047C22BB241000286BE7 /* ContainerVCViewController.swift in Sources */,
+				D849047F22BB258500286BE7 /* LeftSidePanelVC.swift in Sources */,
+				D8B18FB52257077B006FCB30 /* ViewExtension.swift in Sources */,
+				D8B18FBB225729C1006FCB30 /* RoundedButton.swift in Sources */,
+				D8B18FB92257274C006FCB30 /* CircleView.swift in Sources */,
 				D8B18FB0225705B4006FCB30 /* PassengerHomeViewController.swift in Sources */,
+				D8B18FB722570D00006FCB30 /* GradientView.swift in Sources */,
 				D8B18F7E2256F5D1006FCB30 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
