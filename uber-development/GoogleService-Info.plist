@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>207175596135-o1aa4po21kuumbdmaugmglnkvae6pnmj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.207175596135-o1aa4po21kuumbdmaugmglnkvae6pnmj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDKQtyWMgkIXWUAnQX4nR4iRhIvEoE0jRE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>207175596135</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.njg.uber-development</string>
+	<key>PROJECT_ID</key>
+	<string>ubber-a998e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ubber-a998e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:207175596135:ios:b9d23e3b6f34e710</string>
+	<key>DATABASE_URL</key>
+	<string>https://ubber-a998e.firebaseio.com</string>
+</dict>
+</plist>

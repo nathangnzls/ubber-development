@@ -169,4 +169,8 @@ private extension UIStoryboard{
     class func passengerHomeVC() -> PassengerHomeViewController?{
         return mainSB().instantiateViewController(withIdentifier: "PassengerHomeViewController") as? PassengerHomeViewController
     }
+    
+    class func loginVC() -> LoginVC?{
+        return mainSB().instantiateViewController(withIdentifier: "LoginVC") as? LoginVC
+    }
 }
